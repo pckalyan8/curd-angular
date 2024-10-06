@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { enviroinment } from '../enviroinment/enviroinment';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +11,5 @@ import { enviroinment } from '../enviroinment/enviroinment';
 })
 export class AppComponent {
   title = 'curd-app';
-  env = enviroinment.name
+  env = environment.name
 }
